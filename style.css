@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: lato;
+    src: url(Fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: lato bold ;
+    src: url(Fonts/Lato-Bold.ttf);
+}
+
+
+
+body{
+    font-family: lato;
+}
+
+
+#header{
+    background-image: url(IMG/Background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+.logo{
+    width: 10%;
+    height: 20%;
+    margin-left: 2em;
+
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size:100px;
+    font-family: lato bold;
+}
+.b1{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+    margin-left: 60em;
+   
+    
+}
+
+.b2{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+}
+.b3{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+}
+
+.b4{
+    border: solid;
+    border-radius: 0.5em;
+    width: 8%;
+    height: 5%;
+    font-size: 15px;
+    background: none; 
+    color: white;
+    font-family: lato bold;
+    margin-left: 4em;
+    margin-top: 8em;}
+    
+
+
+.titulo{
+    font-family: lato bold;
+    font-size: 100px;
+    color: white;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+#sc1{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    
+}
+
+.titulo2{
+    font-family: lato bold;
+    font-size: 100px;
+    color: white;
+    margin-left: 0.8em;
+    
+}
+
+.soy{
+    width: 40%;
+    margin-left: 5em;
+    margin-top: 10em;
+}
+
+.posudo{
+    margin-left: 60em;
+    margin-top: -33em;
+    width: 25%;
+    border-radius: 2%;
+}
+
+#sc2{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.hobbies{
+    width: 40%;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.voley1{
+    width: 25%;
+    margin-top: -15em;
+    margin-left: 60em;
+    border-radius:2% ;
+}
+
+.acordeones{
+    width: 40%;
+    margin-left: 4.5em;
+    margin-top: -18em;
+
+}
+
+#sc3{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.trabajos{
+    font-family: lato bold;
+    font-size: 100px;
+    color: rgb(253, 253, 253);
+    margin-left:5.5em;
+}
+
+.card1{
+    margin-left: 4em;
+    margin-top: 8em;
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+}
+#sc3 img{
+    border-radius: 3% 3% 0% 0%;
+}
+.card2{
+    margin-left: 28em;
+    margin-top: -20em;
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.card3{
+    margin-left: 22em;
+    margin-top: -18.2em;
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.card4{
+    margin-left: 24em;
+    margin-top: -17.5em;
+    background-color: white;
+    color: black;
+    height: 20em;
+    border-radius: 2%;
+    text-align: center;
+
+}
+
+.sc4{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#carouselExampleFade{
+    
+    display: grid;
+  
+    border: solid red;
+}
+
+.Galeria{
+    font-size: 100px;
+    margin-left: 8em;
+    margin-top: 5em;
+    border: solid red;
+    color: black;
+    font-family: lato;
+  
+    width: 40%;
+    height: 15%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sc5{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.contacto{
+    font-family: lato bold;
+    font-size: 100px;
+    color: white;
+    margin-left: 0.8em;
+    
+}
+
+.posudo2{
+    margin-left: 50em;
+    margin-top: -25em;
+    width: 25%;
+}
+
+.Instagram{
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.Facebook{
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.WhatsApp{
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.I{
+    margin-top: -40em;
+    margin-left: 8em;
+}
+
+.F{
+    margin-top: -25em;
+    margin-left: -3em;
+}
+
+.W{
+    margin-top: -8em;
+    margin-left:-3em;
+}
+
+
+.logo1{
+    width: 10%;
+    height: 20%;
+    margin-left: 7em;
+}
+
+
+
